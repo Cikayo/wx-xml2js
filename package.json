@@ -7,7 +7,7 @@
     "json"
   ],
   "homepage": "https://github.com/wzz1994/wx-xml2js.git",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "author": "Wz <zhengzheng_nuli@163.com>",
   "main": "./lib/wx-xml2js",
   "files": [
