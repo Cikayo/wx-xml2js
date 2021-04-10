@@ -1,0 +1,41 @@
+{
+  "name": "wx-xml2js",
+  "description": "Simple XML to JavaScript object converter for WeChat.",
+  "keywords": [
+    "wechat",
+    "xml",
+    "json"
+  ],
+  "homepage": "https://github.com/wzz1994/wx-xml2js.git",
+  "version": "0.1.0",
+  "author": "Wz <zhengzheng_nuli@163.com>",
+  "main": "./lib/xml2js",
+  "files": [
+    "lib"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "scripts": {
+    "build": "cake build",
+    "test": "zap",
+    "coverage": "nyc npm test && nyc report",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "doc": "cake doc"
+  },
+  "dependencies": {
+    "sax": ">=0.6.0",
+    "xmlbuilder": "~11.0.0"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.10.0",
+    "coveralls": "^3.0.1",
+    "diff": ">=1.0.8",
+    "docco": ">=0.6.2",
+    "nyc": ">=2.2.1",
+    "zap": ">=0.2.9"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  }
+}
