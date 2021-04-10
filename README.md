@@ -9,6 +9,15 @@ Description
 For options, please refer to: [xml2js](https://www.npmjs.com/package/xml2js)
 
 ----------------------
+```javascript
+npm install wx-xml2js
+```
+or
+```javascript
+yarn add wx-xml2js
+```
+
+----------------------
 Convert xml to json:
 
 ```javascript
